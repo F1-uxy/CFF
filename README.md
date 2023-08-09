@@ -2,7 +2,7 @@
 
 - 16 bit mode = 32 Bit Instructions
 - 8 bit mode = 24 Bit Instructions
-- 8 bit mode ignores DATA/ADDR L
+- 8 bit mode ignores DATA/ADDR H
 - Instruction - OPCODE - Data 1 - Data 2 
 - Cannot act directly on memory 
 - Values must be prefixed with a # 
