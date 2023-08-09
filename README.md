@@ -1,11 +1,13 @@
 # CFF
 
-32 Bit Instructions (split in 4 lots of 1 bytes)
-Instruction - OPCODE - Data 1 - Data 2
-Cannot act directly on memory
-Values must be prefixed with a #
-Registers must be prefixed with @
-Comments are denoted with ;
+- 16 bit mode = 32 Bit Instructions
+- 8 bit mode = 24 Bit Instructions
+- 8 bit mode ignores DATA/ADDR L
+- Instruction - OPCODE - Data 1 - Data 2 
+- Cannot act directly on memory 
+- Values must be prefixed with a # 
+- Registers must be prefixed with @ 
+- Comments are denoted with ; 
 
 | Instuction         | OPCODE | Register | Data/ADDR H | Data/ADDR L |
 | ------------------ | ------ | -------- | ----------- | ----------- |
