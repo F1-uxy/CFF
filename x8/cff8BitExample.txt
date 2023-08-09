@@ -1,0 +1,24 @@
+LD R1, R2
+LD R5, R6 ; Don't see me
+LD R5, @0xAA
+LD R3, #0x02
+.loop
+STR R1, @0xAB
+STRL R2, @0x28
+STRH R5, @AB
+STR R1, R2
+
+CMP R1, R2
+CMP R1, @0xAB
+; This is my comment
+.mylabel
+BEQ loop
+BNE mylabel
+BGT loop
+BLT mylabel
+BRN loop
+
+ADD R1, #0xAB
+ADD R1, R2
+SUB R1, #0xAB
+SUB R1, R2
